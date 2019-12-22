@@ -3,23 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Services\TestBasicService;
 
-class TestOne {
-    private $name;
-    private $age;
-    private $isBoy;
-
-    public function get() {
-        return ["name"=>$this->name, "age"=>$this->age, "isBoy"=>$this->isBoy]  ;
-    }
-
-}
 
 class TestController extends Controller
 {
+    private $testBasicService;
+    public function __construct(TestBasicService $testBasicService)
+    {
+        $this->testBasicService = $testBasicService;
+    }
+
     public function getOne() {
-    $test = new TestOne();
-    return $test->get();
+        return response()->json($this->testBasicService->get());
+    }
+
+    public function setOne(Request $request) {
+        return response()->json($this->testBasicService->set($request));
     }
     //
 }
