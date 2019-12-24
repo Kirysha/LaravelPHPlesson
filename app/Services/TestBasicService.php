@@ -21,6 +21,8 @@ class TestOne {
     }
 }
 
+
+
 class TestBasicService
 {
     private $test;
@@ -29,10 +31,17 @@ class TestBasicService
         $this->test = $test;
     }
 
+    /**
+     * @return array
+     */
     public function get(){
         return $this->test->get();
     }
 
+    /**
+     * @param $request
+     * @return array
+     */
     public function set($request){
     return $this->test->set($request->get("name"),$request->get("age"),$request->get("isBoy"));
     }
