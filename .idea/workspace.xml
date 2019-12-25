@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e7cd8b-f7df-4f66-9534-01f91503dc48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/ApiTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+    <list default="true" id="e6e7cd8b-f7df-4f66-9534-01f91503dc48" name="Default Changelist" comment="6.1 - 6.5">
+      <change afterPath="$PROJECT_DIR$/app/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/TestFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_25_170533_create_test_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/TestSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +127,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,7 +159,9 @@
       <updated>1574783164012</updated>
       <workItem from="1574783173370" duration="4687000" />
       <workItem from="1575458440442" duration="2233000" />
-      <workItem from="1577017535467" duration="21405000" />
+      <workItem from="1577017535467" duration="21635000" />
+      <workItem from="1577208756769" duration="3848000" />
+      <workItem from="1577289609988" duration="12722000" />
     </task>
     <task id="LOCAL-00001" summary="5.3">
       <created>1574784968140</created>
@@ -179,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577029727961</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="6.1 - 6.5">
+      <created>1577044214140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577044214140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +214,7 @@
     <MESSAGE value="5.3" />
     <MESSAGE value="5.4" />
     <MESSAGE value="5.5 - 5.10 домашка полность забыл что надо делать комиты" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.5 - 5.10 домашка полность забыл что надо делать комиты" />
+    <MESSAGE value="6.1 - 6.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.1 - 6.5" />
   </component>
 </project>

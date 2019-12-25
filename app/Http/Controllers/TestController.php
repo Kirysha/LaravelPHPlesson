@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Facades\TestBasicServiceFacade;
+use App\Test;
 use Illuminate\Http\Request;
 use App\Services\TestBasicService;
 
@@ -22,5 +23,23 @@ class TestController extends Controller
     public function setOne(Request $request) {
         return response()->json(TestBasicServiceFacade::set($request));
     }
+
+    public function getTest(Request $request)
+    {
+        $id = $request ->get('id');
+        $test = new Test();
+        $res = $test ->t2($id);
+        return response()->json($res);
+    }
+
+    public function getTestTest(Request $request)
+    {
+        $text = $request ->get('text');
+        $test = new Test();
+        $res = $test ->t3($text);
+        return response()->json($res);
+    }
+
+
     //
 }

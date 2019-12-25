@@ -18,4 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::middleware('apiTest:api')->get('/test/one', 'TestController@getOne');
+Route::get('/test', 'TestController@getTest');
+Route::get('/testTest', 'TestController@getTestTest');
 Route::post('/test/one', 'TestController@setOne');
