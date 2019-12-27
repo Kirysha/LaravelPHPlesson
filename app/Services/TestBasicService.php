@@ -3,6 +3,9 @@
 
 namespace App\Services;
 
+use App\Exceptions\MyTestException;
+use App\Test;
+
 class TestOne {
     private $name;
     private $age;
@@ -44,5 +47,22 @@ class TestBasicService
      */
     public function set($request){
     return $this->test->set($request->get("name"),$request->get("age"),$request->get("isBoy"));
+    }
+
+    public function getException($id) {
+        try {
+            $result = Test::t2($id);
+            if(!$result) {
+                throw new MyTestException('Warning: no pepito!!!');
+            }}
+        catch(Exception $e) {
+            return 'ошибка';
+            // тут обрабатываем ошибки
+        }
+
+    }
+
+    public function getForMock(string $var) {
+        return $var;
     }
 }

@@ -24,6 +24,10 @@ class TestController extends Controller
         return response()->json(TestBasicServiceFacade::set($request));
     }
 
+    public function getEx(Request $request) {
+        return response()->json(TestBasicServiceFacade::getException($request->get('id')));
+    }
+
     public function getTest(Request $request)
     {
         $id = $request ->get('id');

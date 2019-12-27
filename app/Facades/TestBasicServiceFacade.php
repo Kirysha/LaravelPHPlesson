@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Facade;
  * @param get
  * @method static get()
  * @method static set()
+ * @method static getException()
+ * @method static getForMock(string $var)
  * @see \App\Services\TestBasicService
 
  */
