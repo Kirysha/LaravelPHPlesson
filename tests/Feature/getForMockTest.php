@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Facades\TestBasicServiceFacade;
 use App\Services\TestBasicService;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -19,9 +20,16 @@ class getForMockTest extends TestCase
     {
         $this->mock(TestBasicService::class, function ($mock) {
             $mock->shouldReceive('getForMock')->once()->andReturn('my third test');
-            $result = $mock->test('aaaa');
+            $result = $mock->getForMock(2);
             $this->assertEquals($result, 'my third test');
-
         });
+    }
+
+    public function testEx()
+    {
+        TestBasicServiceFacade::shouldReceive('getForMock')->once()->andReturn('my third test');
+        $result = TestBasicServiceFacade::getForMock(1);
+        $this->assertEquals($result, 'my third test');
+
     }
 }
