@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e7cd8b-f7df-4f66-9534-01f91503dc48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/UselessTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UselessTestFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_28_181423_create_useless_tests.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GoodlineCurses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GoodlineCurses.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="e6e7cd8b-f7df-4f66-9534-01f91503dc48" name="Default Changelist" comment="9.9-9.10">
+      <change afterPath="$PROJECT_DIR$/tests/Feature/lastTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/getForMockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/getForMockTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UselessTestFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UselessTestFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_25_170533_create_test_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_25_170533_create_test_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +169,8 @@
       <workItem from="1577208756769" duration="3848000" />
       <workItem from="1577289609988" duration="12939000" />
       <workItem from="1577452907657" duration="11516000" />
-      <workItem from="1577552542878" duration="5065000" />
+      <workItem from="1577552542878" duration="5216000" />
+      <workItem from="1577732898448" duration="5469000" />
     </task>
     <task id="LOCAL-00001" summary="5.3">
       <created>1574784968140</created>
@@ -217,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577475405582</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="9.6-9.8">
+      <created>1577558662794</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577558662794</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +247,7 @@
     <MESSAGE value="6.1 - 6.5" />
     <MESSAGE value="7.1-7.9" />
     <MESSAGE value="9.1-9.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.1-9.5" />
+    <MESSAGE value="9.6-9.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.6-9.8" />
   </component>
 </project>
